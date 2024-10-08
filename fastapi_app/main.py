@@ -7,7 +7,7 @@ from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.wsgi import WSGIMiddleware
 from fastapi.templating import Jinja2Templates
 import uvicorn
-from dash_app import app as app_dash
+from dash_App import app as app_dash
 # Create fastAPI app
 
 app = FastAPI()
